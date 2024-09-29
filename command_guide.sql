@@ -45,7 +45,7 @@ CREATE TABLE animals ( -- Create a table
     PRIMARY KEY (id)
 );
 
-INSERT INTO animals (spicies, status) VALUES ('cat', 1); -- Insert data into the specified fields. 
+INSERT INTO animals (species, status) VALUES ('cat', 1); -- Insert data into the specified fields. 
 
 ALTER TABLE animals MODIFY COLUMN id INT AUTO_INCREMENT; -- Add a column to a created table. 
 
